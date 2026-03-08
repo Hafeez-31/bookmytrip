@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Trip | Trains</title>
+    <link rel="stylesheet" href="./trains.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../favicon/bus.png">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <a href="../index.html"><img src="../images/nav-title.png"></a>
+        </div>
+
+        <ul class="nav-bar">
+            <li class="dropdown">
+                <a href="./index.html">Buses</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../index.html#home">Bus Home</a></li>
+                    <li><a href="../index.html#timetable">Bus Timetable</a></li>
+                    <li><a href="../index.html#routes">Our Routes</a></li>
+                    <li><a href="../index.html#all-routes">All Routes</a></li>
+                    <li><a href="../index.html#why-us">Why Us</a></li>
+                    <li><a href="../index.html#offers">Offers</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="./trains/trains.html">Trains</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#train">Train Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#posts">Latest Posts</a></li>
+                    <li><a href="#advantages">Advantages</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="../flights/flights.html">Flights</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../flights/flights.html#flight">Flight Home</a></li>
+                    <li><a href="../flights/flights.html#activities">Activities</a></li>
+                    <li><a href="../flights/flights.html#deals">Deals</a></li>
+                    <li><a href="../flights/flights.html#promotions">Promotions</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="../hotels/hotels.html">Hotels</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../hotels/hotels.html#hotel">Hotel Home</a></li>
+                    <li><a href="../hotels/hotels.html#hotel-facility">About Hotels</a></li>
+                    <li><a href="../hotels/hotels.html#services">Hotel Services</a></li>
+                    <li><a href="../hotels/hotels.html#events">Events</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="buttons">
+            <button><a href="#">Login</a></button>
+            <button><a href="#">SignUp</a></button>
+        </div>
+    </header>
+    <section class="train" id="train">
+        <div class="overlay">
+            <div class="content">
+                <div class="train-content">
+                    <h3>WELCOME TO <br>BOOK <span>YOUR</span> TRAIN</h3>
+                    <P>We saves your time both while purhcasing,<br> the check-in and during the travel</P>
+                </div>
+                <div class="form-section">
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <label for="route">Travelling Route</label>
+                            <div class="route-fields">
+                                <input type="text" placeholder="From">
+                                <!-- <span class="switch">&#8646;</span> -->
+                                <input type="text" placeholder="To">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Travelling Date</label>
+                            <div class="date-fields">
+                                <input type="date" placeholder="MM/DD/YYYY">
+                                <select>
+                                    <option>One Way</option>
+                                    <option>Round </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="route">Travelling Persons</label>
+                            <div class="person-fields">
+                                <select>
+                                    <option>1 Adult</option>
+                                    <option>2 Adults</option>
+                                    <option>3 Adults</option>
+                                    <option>4 Adults</option>
+                                    <option>5 Adults</option>
+                                </select>
+                                <select>
+                                    <option>0 Kids</option>
+                                    <option>1 Kids</option>
+                                    <option>2 Kids</option>
+                                    <option>3 Kids</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button>SEARCH TICKETS</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section id="destinations">
+        <div class="destinations">
+            <div class="card-container">
+                <p>TOP TRAVEL DESTINATIONS</p>
+                <button class="browse-btn">Browse All</button>
+            </div>
+            <div class="destinations-grid-container">
+                <div class="travel-card">
+                    <div class="card-image-container">
+                        <img src="images/newyork.png" alt="New York to Los Angeles route image">
+                    </div>
+                    <div class="card-content">
+                        <div class="route-details">
+                            <div class="origin">
+                                <h3 class="city-name">New York</h3>
+                                <p class="station-name">Penn Station, NY</p>
+                            </div>
+                            <div class="destination">
+                                <h3 class="city-name">Los Angeles</h3>
+                                <p class="station-name">Union Station, CA</p>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <span class="frequency">Every day</span>
+                            <span class="price-info">From <span class="price-value">$238</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travel-card">
+                    <div class="card-image-container">
+                        <img src="images/washington.png" alt="Los Angeles to Washington route image">
+                    </div>
+                    <div class="card-content">
+                        <div class="route-details">
+                            <div class="origin">
+                                <h3 class="city-name">Los Angeles</h3>
+                                <p class="station-name">Union Station, CA</p>
+                            </div>
+                            <div class="destination">
+                                <h3 class="city-name">Washington</h3>
+                                <p class="station-name">Union Station, DC</p>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <span class="frequency">Week days</span>
+                            <span class="price-info">From <span class="price-value">$248</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travel-card">
+                    <div class="card-image-container">
+                        <img src="images/losangeles.png" alt="Washington to New York route image">
+                    </div>
+                    <div class="card-content">
+                        <div class="route-details">
+                            <div class="origin">
+                                <h3 class="city-name">Washington</h3>
+                                <p class="station-name">Union Station, DC</p>
+                            </div>
+                            <div class="destination">
+                                <h3 class="city-name">New York</h3>
+                                <p class="station-name">Penn Station, NY</p>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <span class="frequency">Week end</span>
+                            <span class="price-info">From <span class="price-value">$258</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travel-card">
+                    <div class="card-image-container">
+                        <img src="images/chicago.png" alt="San Diego to Chicago route image">
+                    </div>
+                    <div class="card-content">
+                        <div class="route-details">
+                            <div class="origin">
+                                <h3 class="city-name">San Diego</h3>
+                                <p class="station-name">Old Town, CA</p>
+                            </div>
+                            <div class="destination">
+                                <h3 class="city-name">Chicago</h3>
+                                <p class="station-name">Union Station, IL</p>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <span class="frequency">Every day</span>
+                            <span class="price-info">From <span class="price-value">$238</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travel-card">
+                    <div class="card-image-container">
+                        <img src="images/philadelphia.png" alt="Chicago to Philadelphia route image">
+                    </div>
+                    <div class="card-content">
+                        <div class="route-details">
+                            <div class="origin">
+                                <h3 class="city-name">Chicago</h3>
+                                <p class="station-name">Union Station, IL</p>
+                            </div>
+                            <div class="destination">
+                                <h3 class="city-name">Philadelphia</h3>
+                                <p class="station-name">30th Street Station</p>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <span class="frequency">Week days</span>
+                            <span class="price-info">From <span class="price-value">$248</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travel-card">
+                    <div class="card-image-container">
+                        <img src="images/sandiego.png" alt="Philadelphia to San Diego route image">
+                    </div>
+                    <div class="card-content">
+                        <div class="route-details">
+                            <div class="origin">
+                                <h3 class="city-name">Philadelphia</h3>
+                                <p class="station-name">30th Street Station</p>
+                            </div>
+                            <div class="destination">
+                                <h3 class="city-name">San Diego</h3>
+                                <p class="station-name">Old Town, CA</p>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <span class="frequency">Week days</span>
+                            <span class="price-info">From <span class="price-value">$258</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="posts">
+        <div class="posts-container">
+            <div class="posts-header">
+                <h1>LATEST POSTS</h1>
+                <button class="older-posts-btn">Older Posts</button>
+            </div>
+
+            <div class="posts-grid">
+
+                <div class="post-card">
+                    <img src="images/roadtrain.jpg" alt="A red train in a city">
+                    <div class="post-content">
+                        <h3>New train destination</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut.</p>
+                        <div class="post-meta">
+                            <p class="author">by<span> Admin</span></p>
+                            <p class="date">1 day ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-card">
+                    <img src="images/roadtrain.jpg" alt="Train tracks in a sunset">
+                    <div class="post-content">
+                        <h3>Best travel destinations</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut.</p>
+                        <div class="post-meta">
+                            <p class="author">by<span> Admin</span></p>
+                            <p class="date">1 day ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-card">
+                    <div class="post-content">
+                        <h3>Top10 best train stations</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut.</p>
+                        <div class="post-meta">
+                            <p class="author">by<span> Admin</span></p>
+                            <p class="date">1 day ago</p>
+                        </div>
+                    </div>
+                    <img src="images/roadtrain.jpg" alt="A train station at sunset">
+                </div>
+
+                <div class="post-card">
+                    <div class="post-content">
+                        <h3>Summer Trips 2015</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut.</p>
+                        <div class="post-meta">
+                            <p class="author">by<span> Admin</span></p>
+                            <p class="date">1 day ago</p>
+                        </div>
+                    </div>
+                    <img src="images/roadtrain.jpg" alt="A tropical city skyline at sunset">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="advantages">
+        <div class="advantages">
+            <div class="tkt-advantages"></div>
+
+            <div class="content-text">
+                <div class="advantage-text">
+                    <h2>E-TICKETS ADVANTAGES</h2>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="content-text">
+                <div class="cards">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <p>
+                            It's very easy to order a train ticket online.
+                            E-ticket can not be lost or forgotten at home.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <p>
+                            There's no need to go to the ticket office additionally
+                            before your trip. Save your money and nerves.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <p>
+                            To order tickets all you need is Internet,
+                            a couple minutes and a payment card.
+                            Grab bonuses and discounts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="../images/bus-logo.png">
+                </div>
+                <div class="footer-text">
+                    <h2>Book My Trip</h2>
+                    <p>Your trusted travel partner for Bus, Train, Flight & Hotel bookings.</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h2>Company</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Contact</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Our services</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li><a href="../index.html" class="footer-link">Bus Booking</a></li>
+                        <li><a href="./trains.html" class="footer-link">Train Booking</a></li>
+                        <li><a href="../flights/flights.html" class="footer-link">Flight Tickets</a></li>
+                        <li><a href="../hotels/hotels.html" class="footer-link">Hotels</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Support</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li>Help Center</li>
+                        <li>Cancellation Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Contact Info</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li><i class="fa-sharp fa-solid fa-location-dot"></i> Chennai, India</li>
+                        <li><i class="fa-solid fa-envelope"></i> support@bookmytrip.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +91 9094258120</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Book My Trip. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="trains.js"></script>
+
+</html>

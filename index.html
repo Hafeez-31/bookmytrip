@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Trip | Buses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="./favicon/bus.png">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <a href="./index.html"><img src="./images/nav-title.png"></a>
+        </div>
+
+        <ul class="nav-bar">
+            <li class="dropdown">
+                <a href="./index.html">Buses</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#home">Bus Home</a></li>
+                    <li><a href="#timetable">Bus Timetable</a></li>
+                    <li><a href="#routes">Our Routes</a></li>
+                    <li><a href="#all-routes">All Routes</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="./trains/trains.html">Trains</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./trains/trains.html#train">Train Home</a></li>
+                    <li><a href="./trains/trains.html#destinations">Destinations</a></li>
+                    <li><a href="./trains/trains.html#posts">Latest Posts</a></li>
+                    <li><a href="./trains/trains.html#advantages">Advantages</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="./flights/flights.html">Flights</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./flights/flights.html#flight">Flight Home</a></li>
+                    <li><a href="./flights/flights.html#activities">Activities</a></li>
+                    <li><a href="./flights/flights.html#deals">Deals</a></li>
+                    <li><a href="./flights/flights.html#promotions">Promotions</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="./hotels/hotels.html">Hotels</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./hotels//hotels.html#hotel">Hotel Home</a></li>
+                    <li><a href="./hotels/hotels.html#hotel-facility">About Hotels</a></li>
+                    <li><a href="./hotels/hotels.html#services">Hotel Services</a></li>
+                    <li><a href="./hotels/hotels.html#events">Events</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="buttons">
+            <button><a href="#">Login</a></button>
+            <button><a href="#">SignUp</a></button>
+        </div>
+    </header>
+    <section class="buses" id="home">
+        <div class="bus-content">
+            <h3>YOUR JOURNEY IS OUR CARE</h3>
+            <P>Travel with pleasure together with us!</P>
+
+            <div class="form-container">
+                <select>
+                    <option value="form">From</option>
+                    <option value="city1">Rivne</option>
+                    <option value="city2">Khmelnytskyi</option>
+                    <option value="city2">cherkasy</option>
+                    <option value="city2">Lodz</option>
+                </select>
+                <select>
+                    <option value="to">To</option>
+                    <option value="city1">Wroclaw</option>
+                    <option value="city2">Gdynia</option>
+                    <option value="city2">Legnica</option>
+                    <option value="city2">Lodz</option>
+                </select>
+                <input type="date" placeholder="Departure">
+                <button class="find-btn">Find tickets</button>
+            </div>
+        </div>
+    </section>
+    <section class="bus-time" id="timetable">
+        <div class="timetable">
+            <img src="images/clock.png">
+            <h3>Online Bus Timetable</h3>
+            <p>In this section, you can quickly and conveniently check the<br> latest schedules</p>
+            <button>View Schedule</button>
+        </div>
+    </section>
+    <section id="routes">
+        <div class="routes">
+            <h4>Our Routes</h4>
+            <span class="route-line"></span>
+            <div class="route-list">
+                <div class="route route1 left">RIVNE <span>&#8646;</span> LODZ</div>
+                <div class="route route2 right">KJMELNYTSKYI <span>&#8646;</span> WROCLAW</div>
+                <div class="route route3 left">KJMELNYTSKYI <span>&#8646;</span> GDYNIA</div>
+                <div class="route route4 right">CHERKASY <span>&#8646;</span> GDYNIA</div>
+                <div class="route route5 left">CHERKASY <span>&#8646;</span> LEGNICA</div>
+            </div>
+        </div>
+    </section>
+    <section id="all-routes">
+        <div class="container">
+            <h2>All Routes</h2>
+            <span class="route-line"></span>
+            <div class="route-grid">
+                <div class="route-box route-left">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Radiviliv</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-right">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Shepetivka</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-left">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Radiviliv</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-right">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Shepetivka</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-left">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Radiviliv</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-right">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Shepetivka</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-left">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Radiviliv</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-right">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Shepetivka</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-left">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Radiviliv</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+                <div class="route-box route-right">
+                    <div class="route-content">
+                        <span class="route-name">Kyiv - Shepetivka</span>
+                        <span class="price-tag">from 1000&#36;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-wrapper">
+                <button class="show-more">Show More</button>
+            </div>
+        </div>
+    </section>
+    <section id="why-us">
+        <div class="why-us">
+            <h2>Why Us?</h2>
+            <span class="why-line"></span>
+            <div class="features">
+                <div class="feature">
+                    <img src="images/seat.jpg">
+                    <h4>Comfort for Everyone</h4>
+                    <p>Modern buses with comfortable <br>seats, air conditioning, and Wi-Fi for<br>
+                        pleasant trip.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/buses.jpg">
+                    <h4>Safety Guarantee</h4>
+                    <p>Experienced drivers and regular<br> vechile maintenance ensure safety on<br>
+                        every route</p>
+                </div>
+                <div class="feature">
+                    <img src="images/price.jpg">
+                    <h4>Flexible Prices</h4>
+                    <p>Competitive and flexible<br> discounts for children and group trips</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="offers">
+        <div class="offer-container">
+            <div class="arrow left">&#8249;</div>
+            <h2>Special Offers</h2>
+            <span class="route-line"></span>
+            <div class="offer-card">
+                <div class="offer-text">
+                    <p>Each additional costs<strong>10%</strong> of the ticket price</p>
+                </div>
+                <img src="images/buse.jpg" class="offer-image">
+            </div>
+            <div class="arrow right">&#8250;</div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="./images/bus-logo.png">
+                </div>
+                <div class="footer-text">
+                    <h2>Book My Trip</h2>
+                    <p>Your trusted travel partner for Bus, Train, Flight & Hotel bookings.</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h2>Company</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Contact</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Our services</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li><a href="./index.html" class="footer-link">Bus Booking</a></li>
+                        <li><a href="./trains/trains.html" class="footer-link">Train Booking</a></li>
+                        <li><a href="./flights/flights.html" class="footer-link">Flight Tickets</a></li>
+                        <li><a href="./hotels/hotels.html" class="footer-link">Hotels</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Support</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li>Help Center</li>
+                        <li>Cancellation Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Contact Info</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li><i class="fa-sharp fa-solid fa-location-dot"></i> Chennai, India</li>
+                        <li><i class="fa-solid fa-envelope"></i> support@bookmytrip.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +91 9094258120</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Book My Trip. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+<script src="buses.js"></script>
+
+</html>

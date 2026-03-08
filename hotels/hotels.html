@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Trip | Hotels</title>
+    <link rel="stylesheet" href="./hotels.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../favicon/bus.png">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <a href="../index.html"><img src="../images/nav-title.png"></a>
+        </div>
+
+        <ul class="nav-bar">
+            <li class="dropdown">
+                <a href="../index.html">Buses</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../index.html">Bus Home</a></li>
+                    <li><a href="../index.html#timetable">Bus Timetable</a></li>
+                    <li><a href="../index.html#routes">Our Routes</a></li>
+                    <li><a href="../index.html#all-routes">All Routes</a></li>
+                    <li><a href="../index.html#why-us">Why Us</a></li>
+                    <li><a href="../index.html#offers">Offers</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="../trains/trains.html">Trains</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../trains/trains.html#train">Train Home</a></li>
+                    <li><a href="../trains/trains.html#destinations">Destinations</a></li>
+                    <li><a href="../trains/trains.html#posts">Latest Posts</a></li>
+                    <li><a href="../trains/trains.html#advantages">Advantages</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="../flights/flights.html">Flights</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../flights/flights.html#flight">Flight Home</a></li>
+                    <li><a href="../flights/flights.html#activities">Activities</a></li>
+                    <li><a href="../flights/flights.html#deals">Deals</a></li>
+                    <li><a href="../flights/flights.html#promotions">Promotions</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="./hotels.html">Hotels</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./hotels.html#hotel">Hotel Home</a></li>
+                    <li><a href="./hotels.html#hotel-facility">About Hotels</a></li>
+                    <li><a href="./hotels.html#services">Hotel Services</a></li>
+                    <li><a href="./hotels.html#events">Events</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="buttons">
+            <button><a href="#">Login</a></button>
+            <button><a href="#">SignUp</a></button>
+        </div>
+    </header>
+
+    <section class="hotel-section" id="hotel">
+        <div class="arrow left">
+            <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="arrow right">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="hotel-text">
+            <h3>Welcome to Hotel</h3>
+            <p>THE PLACE WHERE YOU LOOKING TO</p>
+            <button class="explore-btn">
+                EXPLORE NOW <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+        <div class="booking-container">
+            <form class="hotel-form">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" placeholder="Please enter your E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="roomtype">Room Type</label>
+                    <select>
+                        <option>Select a Room</option>
+                        <option>Single Room</option>
+                        <option>Double Room</option>
+                        <option>Triple Room</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="checkin">Check-in</label>
+                    <input type="date" placeholder="Check-in">
+                </div>
+                <div class="form-group">
+                    <label for="checkin">Check-out</label>
+                    <input type="date" placeholder="Check-out">
+                </div>
+                <div class="form-group">
+                    <label for="guest">Guests</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <button class="book-btn">BOOK NOW</button>
+            </form>
+        </div>
+    </section>
+    <section class="hotel-facility" id="hotel-facility">
+        <div class="facility-text">
+            <h1>Welcome TO HOTEL</h1>
+            <img src="./images/hoteldesign.jpg">
+            <p>
+                Discover a stay where comfort meets convenience.
+                From stylish rooms to premium facilities, everything is crafted for your satisfaction.
+                Let us make your journey truly unforgettable. Your perfect getaway starts right here with us.
+            </p>
+        </div>
+        <div class="facility-image">
+            <img src="./images/singlebed.jpg" class="delay-1">
+            <img src="./images/doublebed.jpg" class="delay-2">
+            <img src="./images/kingbed.jpg" class="delay-3">
+        </div>
+        <button class="view-btn">View All</button>
+    </section>
+    <section class="food-section" id="services">
+        <div class="foods">
+            <div class="food-text">
+                <h1>WHY TO CHOOSE US?</h1>
+                <img src="./images/choosedesign.jpg">
+            </div>
+            <div class="food-list">
+                <ul>
+                    <li>ALL</li>
+                    <li>DESERT</li>
+                    <li>COFFEE</li>
+                    <li>CATERING</li>
+                    <li>SERVICES</li>
+                </ul>
+            </div>
+        </div>
+        <div class="food-image">
+            <div class="grid-item delay-1">
+                <img src="./images/chicken.jpg">
+            </div>
+            <div class="grid-item delay-2">
+                <img src="./images/breast.jpg">
+            </div>
+            <div class="grid-item delay-3">
+                <img src="./images/pool.jpg">
+            </div>
+            <div class="grid-item delay-4">
+                <img src="./images/salad.jpg">
+            </div>
+            <div class="grid-item delay-5">
+                <img src="./images/beef.jpg">
+            </div>
+            <div class="grid-item delay-6">
+                <img src="./images/swimming.jpg">
+            </div>
+        </div>
+        </div>
+        <button class="view-btn">View All</button>
+    </section>
+    <section class="events-section" id="events">
+        <div class="event-text">
+            <p>Upcoming</p>
+            <h1>Events</h1>
+            <img src="./images/hoteldesign.jpg">
+        </div>
+        <div class="events-grid">
+            <div class="events-card delay-1">
+                <img src="./images/table.jpg">
+                <div class="card-info">
+                    <div class="date-box">
+                        <h3>25</h3>
+                        <span>APRIL</span>
+                    </div>
+                    <p>Enjoy comfortable rooms with premium facilities. Elegant interiors, and 24/7 room service.</p>
+                </div>
+            </div>
+            <div class="events-card delay-2">
+                <img src="./images/function.jpg">
+                <div class="card-info">
+                    <div class="date-box">
+                        <h3>22</h3>
+                        <span>JUNE</span>
+                    </div>
+                    <p>We organize weddings, birthday parties, corporate meetings, and private events</p>
+                </div>
+            </div>
+            <div class="events-card delay-3">
+                <img src="./images/bell.jpg">
+                <div class="card-info">
+                    <div class="date-box">
+                        <h3>15</h3>
+                        <span>MAY</span>
+                    </div>
+                    <p>Experience delicious multi-cuisine food with professional catering services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="../images/bus-logo.png">
+                </div>
+                <div class="footer-text">
+                    <h2>Book My Trip</h2>
+                    <p>Your trusted travel partner for Bus, Train, Flight & Hotel bookings.</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h2>Company</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Contact</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Our services</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li><a href="../index.html" class="footer-link">Bus Booking</a></li>
+                        <li><a href="../trains/trains.html" class="footer-link">Train Booking</a></li>
+                        <li><a href="../flights/flights.html" class="footer-link">Flight Tickets</a></li>
+                        <li><a href="./hotels.html" class="footer-link">Hotels</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Support</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li>Help Center</li>
+                        <li>Cancellation Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Contact Info</h2>
+                    <div class="underline"><span></span></div>
+                    <ul class="footer-list">
+                        <li><i class="fa-sharp fa-solid fa-location-dot"></i> Chennai, India</li>
+                        <li><i class="fa-solid fa-envelope"></i> support@bookmytrip.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +919094258120</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Book My Trip. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="hotels.js"></script>
+
+</html>
